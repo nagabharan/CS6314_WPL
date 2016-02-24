@@ -1,0 +1,219 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: sans-serif;
+  
+}
+
+/*
+ * Masthead for nav
+ */
+
+.masthead {
+  background-color: #428bca;
+}
+
+/* Nav links */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.nav .active {
+  color: #fff;
+}
+.nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Name 
+ */
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+#propic
+{
+    display:block;
+    height: auto; 
+    width: auto; 
+    border: 4px inset #FBB117;    
+    margin: 5px;
+}
+
+.divHeading {
+    float: left;    
+    color:#34282C;
+    font-size: 21px;
+}
+
+.myDivisions, .sidebarinfo
+{
+    float:left;  
+    padding: 5px;
+    background-color: #84B2B0;
+    border: 2px outset #0A045E;
+    color:black;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.myDivisions {
+    width: 100%; 
+    padding: 10px;
+}
+
+.rightsec {
+  background-color: aqua;
+}
+.listHeading {
+    color:#34282C;
+    list-style-image: url('http://icons.iconarchive.com/icons/icons8/ios7/16/Arrows-Forward-icon.png');  
+
+}
+
+
+.tooltiputd
+{
+    color: #F45905;
+    font-weight: bold;  
+}
+
+.divHeading, .listHeading {
+    padding: 1px;
+    font-weight: bold;
+    clear: both;
+    font-size: 16px;
+}
+
+
+
+.divDescription {
+    float: left;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.myLists
+{
+    float:left;
+  
+}
+
+p
+{
+
+    text-align: left;
+    color:red;
+    margin: 10px;   
+}
+
+
+
+.listOrder
+{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    list-style-image: url('http://icons.iconarchive.com/icons/icons8/ios7/16/Messaging-Star-icon.png');
+}
+
+a:hover 
+{
+    font-style: italic;
+    text-decoration: underline;
+    color:#F52855;
+}
+
+.listContact
+{
+    
+    font-size: 18px;
+    list-style-image:url('http://icons.iconarchive.com/icons/icons8/ios7/16/Messaging-Star-icon.png'); 
+}
+
+a:link 
+{
+    text-decoration: none;
+    color: #201CA4;
+}
+
+
+a:visited
+{
+    color: #A42E1C;
+}
+
+table-
+{
+    margin: 4px 4px 4px 4px;
+    float: left;
+    border: 3px solid green;
+    font-size: 20px;
+    
+}
+th
+{
+    height: 22px;
+    background-color: #109E91;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    border:5px solid green;
+    font-size: 20px;
+    
+}
+td
+{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+tr
+{
+    height: 15px;
+    border: 3px solid green;
+   
+}
+
+
+*{
+    font-family: Sans-Serif;
+}

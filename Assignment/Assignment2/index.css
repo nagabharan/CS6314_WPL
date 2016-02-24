@@ -1,0 +1,176 @@
+#slider-wrapper 
+{
+width:1280px;
+height:720px;
+}
+
+#slider 
+{
+width:1280px;
+height:720px;
+position:relative;
+}
+
+p
+{
+position: relative;
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+
+.myImages {
+width:1280px;
+height:720px;
+border-color: black;
+border-style: inset;
+border-width: 5px;
+position: fixed;
+top:100px;
+bottom: 100px;
+left:300px;
+right: 100px;
+}
+
+.myImages .caption 
+{
+position: absolute; 
+width: 200px; 
+height: 50px;
+bottom: 0px; 
+left: 0px;
+font-size: 20px;
+color: white; 
+background: grey; 
+text-align:center; 
+font-weight:bold; 
+opacity:0.8; 
+} 
+
+#nav 
+{
+margin-top:20px;
+}
+
+#previousButton
+{
+float: left;
+position: fixed; 
+width: 30px; 
+height: 2px;
+top:400px;
+bottom: 400px;
+left:200px;
+right: 200px;
+opacity:0.7; 
+}
+
+#nextButton
+{
+float: right;
+position: fixed; 
+width: 30px; 
+height: 2px;
+top:400px;
+bottom: 400px;
+left:1590px;
+right: 720px;
+opacity:0.7; 
+}
+
+#button1
+{
+float: left;
+position: fixed;
+width:10px;
+height:5px;
+margin:10px;
+padding:20px;
+border-radius:5%;
+top: 720px;
+bottom:200px;
+left:650px;
+right: 600px;
+}
+
+#button2
+{
+float: left;
+position: fixed;
+width:10px;
+height:5px;
+margin:10px;
+padding:20px;
+border-radius:5%;
+top: 720px;
+bottom:200px;
+left:750px;
+right: 600px;
+}
+
+#button3
+{
+float: left;
+position: fixed;
+width:10px;
+height:5px;
+margin:10px;
+padding:20px;
+border-radius:5%;
+top: 720px;
+bottom:200px;
+left:850px;
+right: 600px;
+}
+
+#button4
+{
+float: left;
+position: fixed;
+width:10px;
+height:5px;
+margin:10px;
+padding:20px;
+border-radius:5%;
+top: 720px;
+bottom:200px;
+left:950px;
+right: 600px;
+}
+
+#button5
+{
+float: left;
+position: fixed;
+width:10px;
+height:5px;
+margin:10px;
+padding:20px;
+border-radius:5%;
+top: 720px;
+bottom:200px;
+left:1050px;
+right: 600px;
+}
+
+#button6
+{
+float: left;
+position: fixed;
+width:10px;
+height:5px;
+margin:10px;
+padding:20px;
+border-radius:5%;
+top: 720px;
+bottom:200px;
+left:1150px;
+right: 600px;
+}
+
+button
+{
+font-weight: bold;
+text-align: center;
+font: bold 20px sans-serif;
+}
